@@ -90,6 +90,7 @@ public class JSONParser extends Parser {
 		super(input);
 		_interp = new ParserATNSimulator(this,_ATN,_decisionToDFA,_sharedContextCache);
 	}
+
 	public static class JsonContext extends ParserRuleContext {
 		public ValueContext value() {
 			return getRuleContext(ValueContext.class,0);
